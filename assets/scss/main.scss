@@ -1,0 +1,267 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-color: black;
+    height: 100%;
+    width: auto;
+    #first {
+        display: inline-block;
+        color: white;
+        padding: 43px 0 0 208px;
+    }
+    h5 {
+        color: white;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    #second {
+        display: inline-block;
+        color: white;
+        float: right;
+        margin-top: -62px;
+        margin-right: 205px
+    }
+    .wrapper {
+        background-color: white;
+        height: 100vh;
+        width: auto;
+//        margin-left: 20px;
+//        margin-right: 20px;
+    }
+    ul {
+        padding: 30px;
+        text-align: center;
+        li {
+            display: inline-block;
+            text-align: center;
+            margin-left: 37px;
+        }
+        li:hover {
+            border-bottom: 3px solid black;
+        }
+    }
+    .slide-show {
+        height: 90vh;
+        width: auto;
+        //		background-color: aqua;
+        background-position: center;
+        margin-left: 275px;
+        margin-right: 230px
+    }
+    #item-1 {
+        background: url(../img/Cars_with_Girls_1702x1126.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 90vh;
+        background-position: center;
+    }
+   
+    .overlay {
+        content: "";
+        position: relative;
+        height: 90vh;
+        width: 100%;
+        background: #111;
+        opacity: .5;
+    }
+    .center-text {
+        width: auto;
+        margin: 0;
+        padding: 1.23em 1.4em;
+        h4 {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            font-size: 3.5rem;
+            font-weight: 600;
+            //                text-shadow: #111 2px 3px 2px;
+        }
+        P {
+            text-align: justify;
+            color: white;
+            text-align: center;
+            padding-top: 246px;
+        }
+        #color {
+            color: sandybrown;
+            font-weight: bold;
+        }
+    }
+}
+.new-arrivals {
+    height: 90vh;
+    width: auto;
+    margin-left: 275px;
+    margin-right: 230px;
+    margin-top: 75px;
+    .text >h4 {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 2rem;
+    }
+    .border{
+        border: 2px solid;
+        width: 4%;
+        margin-left: 48%;
+        color: sandybrown;
+    }
+    .col-md-3 {
+        width: 242px;
+        height: 380px;
+        padding: 10px;
+        //        background-color: aqua;
+        margin: 5px;
+        .back {
+            width: 220px;
+            height: 300px;
+        }
+        #image1 {
+            background-image: url(../img/Fashion_Nova_05-11-17_Studio_2-457_800x.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #image2 {
+            background-image: url(../img/Fashion_Nova_05-24-17-749_800x.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        #image3 {
+            background-image: url(../img/cc5a8aa877c0390f15f22939ddf29624--mermaid-wedding-gowns-wedding-rehearsal-dinners.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        #image4 {
+            background-image: url(../img/rs_600x600-170226155645-600.Taraji-P.-Henson-Oscrs.ms.022617.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        #image5 {
+            background-image: url(../img/Fashion_Nova_05-11-17_Studio_2-457_800x.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        #image6 {
+            background-image: url(../img/3632934a8656fa9ebf55ec2905459340--personalized-shirts-business-shirts.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        #image7 {
+            background-image: url(../img/FE.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 242px;
+            height: 400px;
+        }
+        #image8 {
+            background-image: url(../img/fea.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 242px;
+            height: 400px;
+        }
+        #image9 {
+            background-image: url(../img/Fashion_Nova_05-24-17-749_800x.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 242px;
+            height: 400px;
+        }
+        #price {
+            float: right;
+            color: sandybrown;
+        }
+        #span1 {
+            font-family: cursive;
+            font-size: 1.3rem;
+            font-weight: bolder;
+        }
+        #price1 {
+            text-align: center;
+            color: sandybrown;
+        }
+        #span2 {
+            font-family: cursive;
+            font-size: 1.3rem;
+            font-weight: bolder;
+        }
+    }
+}
+.feat {
+    text-align: center;
+}
+.down {
+    clear: both;
+    height: 35px;
+    border: 3px solid;
+    background-color: white;
+}
+#shadow {
+    opacity: .3;
+}
+.center {
+    text-align: center;
+    margin-left: 537px;
+    margin-top: 46px;
+    width: 317px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.footer {
+    height: 40vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    margin: 10%;
+    margin-left: -1px;
+    margin-bottom: 0px;
+}
+
+.services {
+    //width: 80%;
+    padding-left: 13%;
+  
+}
+
+h6{
+  color: sandybrown;
+    font-family: sans-serif;
+       padding-top: 42px;
+    margin-bottom: 31px;
+}
+p{
+    color: white;
+    font-family: serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+i{
+    color: white;
+    margin: 5px;
+}
+.foot{
+    
+    width: 100%;
+    background-color:rgba(0,0,0,0.7);
+    bottom: 0;
+}
+.move{
+    margin-left: 200px;
+    font-size: 1.3rem;
+    padding: 29px;
+}
+#position{
+    margin-left: -23px;
+    padding-top: 5%;
+}
+#col{
+    color: sandybrown;
+}

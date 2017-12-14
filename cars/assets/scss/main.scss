@@ -1,0 +1,502 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+nav {
+	transition: 800ms;
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	li {
+		display: block;
+	}
+	a {
+		display: block;
+		color: white;
+		text-decoration: none;
+		padding: 6px 6px;
+		&::hover {
+			background: none;
+			text-decoration: none;
+			color: white !important;
+		}
+	}
+}
+section {
+	position: relative;
+}
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0!important;
+	margin-bottom: 0px;
+	background: black !important;
+	border: none !important;
+	opacity: .7;
+	color: #fff !important;
+}
+.navbar-inverse {
+	.navbar-brand {
+		font-weight: 900;
+		font-stretch: expanded;
+		a {
+			color: white;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}
+.banner {
+	height: 100%;
+	width: auto;
+	margin-top: -15px;
+}
+
+.slide {
+	height: 100vh;
+	background:url(../img/benz.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	position: relative;
+	z-index: 0;
+}	
+.slide::before{
+	content: "";
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	background: #111;
+	opacity: .5;
+}
+	.centerText {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+}
+h3{
+	
+		text-align: center;
+		font-weight: 600;
+		font-size: 5em;
+		color: white;
+		text-shadow: #111 2px 3px 2px;
+		font-family: 'Cookie', 'cursive';
+}
+
+
+}
+.wrapper {
+	height: auto;
+	width: auto;
+	margin-bottom: 3px;
+}
+.about-section {
+	width: auto;
+	height: 100%;
+	margin-top: 10%;
+	margin-bottom: 10px;
+	h2 {
+		text-align: center;
+		font-weight: 600;
+		font-size: 2em;
+	}
+	p {
+		text-align: center;
+		font-style: italic;
+		font-size: .9em;
+	}
+}
+.about-content {
+	margin: 0;
+	padding-top: 7px;
+	top: 0;
+	h2 {
+		font-weight: 600;
+		text-align: center;
+	}
+	span {
+		text-align: right;
+		line-height: 25px;
+		color: #565;
+	}
+	img {
+		float: left;
+		padding-right: 2px;
+	}
+}
+.img_holder {
+	border: 1px solid rgba(0, 0, 0, .3);
+	width: 100%;
+	position: relative;
+	float: left;
+	background-size: contain;
+	height: 400px;
+	margin-right: 10px;
+}
+.services {
+	height: auto;
+	width: auto;
+	margin-top: 40%;
+	margin-bottom: 20%;
+	h2 {
+		text-align: center;
+		font-weight: bold;
+	}
+	p {
+		font-style: italic;
+		text-align: center;
+	}
+}
+.service-inner {
+	margin-left: 5%;
+	margin-top: 2%;
+	border: 1px solid #956677;
+}
+.service-icon {
+	height: 75px;
+	width: 75px;
+	border-radius: 50px;
+	background-color: skyblue;
+	margin: 20px;
+	margin-top: 1px;
+	.iconz {
+		color: white;
+		margin: 20px 7px 10px 5px;
+		i {
+			float: left;
+			margin-right: 2px;
+		}
+		.text {
+			display: block;
+			text-align: left;
+		}
+	}
+}
+h4 {
+	font-weight: bold;
+	font-size: 600;
+}
+.subscribe {
+	height: 40vh;
+	width: 100%;
+	width: auto;
+	position: relative;
+	margin-top: 30%;
+	margin-bottom: 3%;
+	background: url(../img/rolls.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	.btn {
+		padding: .4em 1.4em;
+		border-radius: 5px;
+		background-color: transparent;
+		border: 2px solid white;
+		&:hover {
+			background: skyblue;
+			color: white;
+			border: none;
+		}
+	}
+	.btn-sub {
+		color: white;
+		font-size: .21em !important;
+		text-align: center;
+	}
+}
+.row_1 {
+	margin-bottom: 20px;
+}
+.pad {
+	margin-top: 30px;
+}
+.img-cover {
+	content: "";
+	background: black;
+	opacity: .6;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.inner-writeup {
+	h4 {
+		color: white;
+		padding: 50px;
+		font-size: 2em;
+		font-weight: 900;
+		text-shadow: #111 2px 3px 2px;
+	}
+	h5 {
+		color: white;
+		font-weight: 600;
+		font-size: 1em;
+		margin-top: -39px;
+		margin-left: 49px;
+	}
+}
+.inner-write {
+	margin-top: -64px;
+	font-size: 1.5em;
+	font-weight: 600;
+}
+.portfolio {
+	height: 30vh;
+	width: auto;
+	margin-top: 10%;
+	margin-bottom: 3%;
+	h2 {
+		text-align: center;
+		font-weight: bold;
+	}
+	p {
+		font-style: italic;
+		text-align: center;
+	}
+}
+.img_holder1 {
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 250px;
+	height: 200px;
+	border-radius: 5px;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+.img-1 {
+	background: url(../img/benz.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 230px;
+	height: 130px;
+	border-radius: 3px;
+	box-shadow: gray 2px 3px 2px;
+}
+.img-2 {
+	background: url(../img/bugatti.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 230px;
+	height: 130px;
+	border-radius: 3px;
+	box-shadow: gray 2px 3px 2px;
+}
+.img-3 {
+	background: url(../img/ferrari.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 230px;
+	height: 130px;
+	border-radius: 3px;
+	box-shadow: gray 2px 3px 2px;
+}
+.img-4 {
+	background: url(../img/rolls-royce-2362821_1920.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 230px;
+	height: 130px;
+	border-radius: 3px;
+	box-shadow: gray 2px 3px 2px;
+}
+.img-5 {
+	background: url(../img/mercedez.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 230px;
+	height: 130px;
+	border-radius: 3px;
+	box-shadow: gray 2px 3px 2px;
+}
+.img-6 {
+	background: url(../img/rolls.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 230px;
+	height: 130px;
+	border-radius: 3px;
+	box-shadow: gray 2px 3px 2px;
+}
+.img-7 {
+	background: url(../img/2015_porsche.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 230px;
+	height: 130px;
+	border-radius: 3px;
+	box-shadow: gray 2px 3px 2px;
+}
+.img-8 {
+	background: url(../img/2011_porsche.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 230px;
+	height: 130px;
+	border-radius: 3px;
+	box-shadow: gray 2px 3px 2px;
+}
+.testimonials {
+	height: 40vh;
+	width: auto;
+	margin-top: 30%;
+	margin-bottom: 3%;
+}
+h2 {
+	text-align: center;
+	font-weight: bold;
+}
+p {
+	font-style: italic;
+	text-align: center;
+}
+#imgs {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin: 40px;
+}
+.span {
+	margin-top: 89px;
+	font-size: 1em;
+	font-weight: 400;
+	margin-right: -162px;
+	background-color: aliceblue;
+}
+.spa {
+	margin-left: -389px;
+	margin-top: 255px;
+	background-color: aliceblue;
+}
+.name {
+	margin-left: -119px;
+	margin-top: -32px;
+}
+#pix {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin: 40px;
+	margin-top: 135px;
+	margin-left: 88px;
+}
+.team {
+	height: 30vh;
+	width: auto;
+	margin-top: 30%;
+	margin-bottom: 3%;
+	h2 {
+		text-align: center;
+		font-weight: bold;
+	}
+	p {
+		font-style: italic;
+		text-align: center;
+	}
+	#down {
+		margin-left: -119px;
+		margin-top: -32px;
+	}
+	.social {
+		margin-left: 104px;
+	}
+}
+.img_holder1 {
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 250px;
+	height: 200px;
+	border-radius: 5px;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+.img-9 {
+	background: url(../img/team5.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 230px;
+	height: 130px;
+	//    border-radius: 3px;
+	//    box-shadow: gray 2px 3px 2px;
+}
+.img-10 {
+	background: url(../img/team4.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 230px;
+	height: 130px;
+	//    border-radius: 3px;
+	//    box-shadow: gray 2px 3px 2px;
+}
+.img-11 {
+	background: url(../img/Testimonial.jpg);
+	background-size: cover;
+	//    background-position: center;
+	background-repeat: no-repeat;
+	width: 230px;
+	height: 130px;
+	//    border-radius: 3px;
+	//    box-shadow: gray 2px 3px 2px;
+}
+.img-12 {
+	background: url(../img/team9.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 230px;
+	height: 130px;
+	//    border-radius: 3px;
+	//    box-shadow: gray 2px 3px 2px;
+}
+.contact {
+	height: 70vh;
+	width: auto;
+	margin-top: 20%;
+	margin-bottom: 3%;
+	h2 {
+		text-align: center;
+		font-weight: bold;
+	}
+	p {
+		font-style: italic;
+		text-align: center;
+	}
+}
+.footer {
+	height: 10vh;
+	width: auto;
+	background-color: black;
+	margin-bottom: 0px;
+	.container {
+		color: #fff;
+		padding-top: 1em;
+		text-align: center;
+	}
+}
+.fixedNav {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+	opacity: .95;
+	* {
+		color: #ccc !important;
+	}
+}
+
+

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+
+        <style>
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+                height: 100vh;
+                width: 100vw;
+                background: white;
+            }
+            
+            * {
+                font-family: sans-serif;
+            }
+            
+            .fullWidthImage {
+                height: 100vh;
+                background: url("pex.jpeg") no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: 100%;
+                position: relative;
+                z-index: 0;
+            }
+            
+            .fullWidthImage::before {
+                content: "";
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                background: lightcoral;
+                opacity: .5;
+            }
+            
+            .text {
+                height: 40vh;
+                background: black;
+                width: 100vw;
+            }
+            
+            nav {
+                margin: 0;
+                width: 100%;
+                height: 50px;
+                position: relative;
+                z-index: 1;
+            }
+            
+            nav ul {
+                margin: 2em;
+                float: right;
+            }
+            
+            nav ul li {
+                color: white;
+                display: inline-block;
+                height: 100%;
+                line-height: 50px;
+                min-width: 70px;
+                text-align: center;
+            }
+            
+            .centerText {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+            
+            .centerText * {
+                color: white;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div class="fullWidthImage">
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>Contact</li>
+                        <li>FAQ</li>
+                    </ul>
+                </nav>
+
+
+                <div class="centerText">
+                    <h1>Heyo Tosin</h1>
+                    <h4>From D-Bills</h4>
+                </div>
+            </div>
+
+
+        </header>
+    </body>
+
+</html>
